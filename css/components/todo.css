@@ -1,0 +1,17 @@
+.header {
+    width: 1000px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 20% 20% 10% 10%;
+    grid-gap: 10%;
+}
+.container {
+    margin-top: 50px;
+ 
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 40% 40% 15%;
+    grid-gap: 10px 20px;
+    align-content: center;
+    justify-content: space-evenly;
+}
