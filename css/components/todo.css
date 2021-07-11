@@ -1,17 +1,43 @@
 .header {
-    width: 1000px;
-    margin-left: 50px;
+    margin: 0 auto;
+    margin-top: 100px;
+    min-width: 400px;
+    max-width: 80%;
     display: grid;
     grid-template-columns: 20% 20% 10% 10%;
     grid-gap: 10%;
-}
-.container {
-    margin-top: 50px;
- 
-    width: 1000px;
-    display: grid;
-    grid-template-columns: 40% 40% 15%;
-    grid-gap: 10px 20px;
     align-content: center;
     justify-content: space-evenly;
+
+    
+}
+.container {
+    margin: 0 auto;
+    margin-top: 50px;
+    min-width: 400px;
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+    line-height: 25px;
+    font-size: 20px;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.container * {    
+    border: 1px solid rgb(12, 11, 11);
+    align-content: center;
+    justify-content: center;
+    
+    
+}
+.rowen,
+.rowlt,
+.actions {
+   
+}
+.edit {
+    margin-left: 10%;
+}
+.delete {
+    margin-left: 40%;
 }
